@@ -1,2 +1,2 @@
 # landing-page
-Personal landing page for my creative works
+Personal website for my creative works
