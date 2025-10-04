@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+.header{
+    background: #1f2937;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 250px 25px 250px;
+    width: 1400px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p{
+    font: Roboto;
+    font-size: 24px;
+    font-weight: 200;
+    color: #F9FAF8;
+    gap: 16px;
+}
+
+.p2{
+    color: black;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    font: Roboto;
+    font-size: 24px;
+    color: #e5e5e5
+}
+.pfp{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+    margin-right: 40px;
+    background-color: #E5E7EB;
+}
+
+.button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info{
+    text-align: center;
+
+}
+.info-header{ 
+    flex-basis: 180px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    
+}
+.art-cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.card{
+    flex-basis: 180px;
+    border: 2px solid #3882F6;
+    min-height: 18px;
+    border-radius: 10px;
+}
+
+.quote{
+
+}
