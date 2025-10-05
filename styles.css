@@ -38,14 +38,14 @@ a{
     color: #e5e5e5
 }
 .pfp{
-
-    display:flex;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    width: 600px;
-    height: 250px;
-    margin-right: 40px;
-    background-color: #E5E7EB;
+    background-color: grey;
+    height: 225px;
+    width: 450px;
+    align-items: center;
+    color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .button{
@@ -56,29 +56,99 @@ a{
     padding: 10px;
 }
 
+.button,
+.button-2 {
+  padding: 5px 30px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.button-2 {
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+}
+
 .info{
     text-align: center;
-
+    gap: 20px;
+    padding: 24px 48px 84px;
 }
-.info-header{ 
-    flex-basis: 180px;
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 900;
-    
-}
-.art-cards{
+.info-container{
     display: flex;
     justify-content: center;
     gap: 52px;
 }
+
+.info-header{ 
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 24px 48px 84px;
+    
+}
+.art-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
 .card{
+    
     flex-basis: 180px;
     border: 2px solid #3882F6;
     min-height: 18px;
     border-radius: 10px;
 }
 
-.quote{
 
+.action {
+    padding: 48px 84px 92px;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color:#f9faf8;
+}
+.action-text > div {
+    font-size: 24px;
+}
+.footer {
+    background: #1f2937;
+    padding: 36px;
+    text-align: center;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 42px;
+    flex-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 84px 42px;
+  flex-wrap: wrap;
+
+}
+
+.quoter {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 24px;
+  align-self: flex-end;
 }
